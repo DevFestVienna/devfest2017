@@ -1,9 +1,9 @@
 {
-	"title": "GDG DevFest Vienna 2017",
+	"title": "DevFest Vienna 2017",
 	"description": "The biggest Google tech conference in Vienna carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
 	"keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-	"dates": "November 25-16, 2017",
-	"partnershipProposition": "https://bit.ly/dfua17-partners",
+	"dates": "November 25-26, 2017",
+	"partnershipProposition": "/images/DevFest_Vienna_Sponsorship.pdf",
 	"share": "Share",
 	"followOur": "Follow our",
 	"followUs": "Follow us",
@@ -85,7 +85,7 @@
 				},
 				{
 					"name": "Call for Papers",
-					"url": "https://cfp-manager-dev.firebaseapp.com/",
+					"url": "https://cfp.gdg-vienna.at/",
 					"newTab": true
 				},
 				{
@@ -104,20 +104,20 @@
 		"title": "What you need to know, before you ask.",
 		"callToAction": {
 			"featuredSessions": {
-				"description": "GDG DevFest Austria brings together the world class experts in Android, Web and Cloud technologies to Vienna for 2 days of sessions, workshops and showcases.",
+				"description": "GDG DevFest Vienna brings together the world class experts in Android, Web and Cloud technologies to Vienna for 2 days of sessions, workshops and showcases.",
 				"label": "Explore featured session",
-				"link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+				"link": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
 			},
 			"howItWas": {
-				"description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
+				"description": "Our team creates DevFest Vienna to be the best place for experience sharing in a phenomenal atmosphere.",
 				"label": "See how it was in 2016",
-				"youtubeId": "TdpbgRgz6eE"
+				"link": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
 			}
 		},
 		"statisticsBlock": {
 			"attendees": {
 				"label": "Attendees",
-				"number": "500"
+				"number": "250"
 			},
 			"days": {
 				"label": "Days",
@@ -143,10 +143,10 @@
 		"button": "Become a partner"
 	},
 	"featuredVideos": {
-		"title": "DFUA'16 featured videos",
+		"title": "DevFest Vienna 16 featured videos",
 		"callToAction": {
 			"label": "See all videos",
-			"link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+			"link": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
 		}
 	},
 	"blog": {
@@ -172,7 +172,7 @@
 		}
 	},
 	"galleryBlock": {
-		"title": "#dfua16 highlights",
+		"title": "#devfestvienna highlights",
 		"description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
 		"callToAction": {
 			"label": "See all photos",
@@ -183,6 +183,6 @@
 		"title": "Location"
 	},
 	"team": {
-		"description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+		"description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Vienna](http://www.gdg-vienna.at/) - is an open and volunteer geek community which creates exciting projects and shares experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Vienna audience to boost development of IT."
 	}
 }
