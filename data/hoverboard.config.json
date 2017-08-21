@@ -1,0 +1,176 @@
+{
+  "basepath": "/",
+  "url": "https://devfest2017-7447a.firebaseio.com/",
+  "startDate": "2017-11-25T09:00:00+03:00",
+  "endDate": "2017-11-26T19:00:00+03:00",
+  "analytics": {
+    "prod": "UA-21611117-6",
+    "dev": "UA-21611117-6"
+  },
+  "environment": "dev",
+  "prefix": "/",
+  "firebase": {
+    "apiKey": "AIzaSyCaiwfiyFjmCF2AJW-oayLJO-Ri8KlLwaw",
+    "authDomain": "devfest2017-7447a.firebaseapp.com",
+    "databaseURL": "https://devfest2017-7447a.firebaseio.com",
+    "projectId": "devfest2017-7447a",
+    "storageBucket": "hoverboard-experimental.appspot.com",
+    "messagingSenderId": "279051784104"
+  },
+  "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
+  "organizer": {
+    "name": "GDG Vienna",
+    "twitter": "gdgvienna",
+    "blog": "https://www.meetup.com/GDG-Vienna/",
+    "url": "http://www.gdg-vienna.at/"
+  },
+  "webapp": {
+    "shortName": "DevFest",
+    "themeColor": "#673AB7",
+    "backgroundColor": "#673AB7"
+  },
+  "hashtag": "DevFest17",
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/",
+      "title": "Home"
+    },
+    {
+      "route": "call for papers",
+      "permalink": "https://cfp-manager-dev.firebaseapp.com/",
+      "title": "Call For Papers"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "title": "Schedule"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "title": "Speakers"
+    },
+    {
+      "route": "team",
+      "permalink": "http://devfest.at/team/",
+      "title": "Team"
+    }
+  ],
+  "heroSettings": {
+    "home": {
+      "description": "The biggest Google tech conference in Austria. All about Android, Web, and Cloud.",
+      "background": {
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.jpg"
+      },
+      "fontColor": "#FFF"
+    },
+    "blog": {
+      "title": "Blog",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "speakers": {
+      "title": "Speakers",
+      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "background": {
+        "color": "#a4c639"
+      },
+      "fontColor": "#424242"
+    },
+    "schedule": {
+      "title": "Schedule",
+      "background": {
+        "color": "rgba(33, 147, 176, 0.1)",
+        "gradient": "linear-gradient(to right, #2193b0, #6dd5ed)"
+      },
+      "fontColor": "#fff"
+    },
+    "team": {
+      "title": "Team",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "faq": {
+      "title": "FAQs",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    }
+  },
+  "location": {
+    "short": "Vienna, Austria",
+    "address": "Gußhausstrasse 27-29, Vienna , Austria",
+    "pointer": {
+      "latitude": 48.196305,
+      "longitude": 16.369742,
+      "zoom": 5
+    },
+    "mapCenter": {
+      "latitude": 48,
+      "longitude": 8
+    },
+    "description": "GDG Vienna, JSUG and AndroidHeads Vienna bring to you this amazing conference. Awesome speakers and lots of fun!"
+  },
+  "mediaQueries": {
+    "xs": {
+      "max": "639px"
+    },
+    "sm": {
+      "min": "640px",
+      "max": "811px"
+    },
+    "md": {
+      "min": "812px",
+      "max": "1023px"
+    },
+    "lg": {
+      "min": "1024px"
+    }
+  },
+  "socialNetwork": {
+    "follow": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/DevFestVienna/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/DevFestVienna/"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/devfestvienna"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
+      }
+    ],
+    "share": [
+      {
+        "name": "gplus",
+        "url": "https://plus.google.com/share?url="
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sharer.php?u="
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/intent/tweet?text="
+      }
+    ]
+  },
+  "mailto": "team@devfest.at",
+  "mailchimp": {
+    "url": "https://www.meetup.com/GDG-Vienna/",
+    "name": "GDG Vienna"
+  }
+}
