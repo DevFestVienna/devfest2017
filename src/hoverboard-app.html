@@ -210,9 +210,17 @@
 						<paper-tabs class="nav-items" selected="[[route]]" attr-for-selected="name" hidden$="[[viewport.isPhone]]" role="navigation"
 						 noink>
 							{% for nav in navigation %}
+							{% if nav.newwindow %}
+								<paper-tabs no-bar="true">
+								<paper-tab class="nav-item" link>
+								<a href="{$ nav.permalink $}" target='_blank' layout vertical center-center>{$ nav.title $}</a>
+								</paper-tab>
+								</paper-tabs>
+							{% else %}
 							<paper-tab name="{$ nav.route $}" class="nav-item" link>
-								<a href="{$ nav.permalink $}" {% if nav.newwindow %} target='_blank' {% endif %} layout vertical center-center>{$ nav.title $}</a>
+								<a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.title $}</a>
 							</paper-tab>
+							{% endif %}
 							{% endfor %}
 						</paper-tabs>
 					</app-toolbar>
