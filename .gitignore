@@ -6,4 +6,4 @@ build
 .temp/
 .vscode/
 .firebaserc
-.firebaserc
+*.log
