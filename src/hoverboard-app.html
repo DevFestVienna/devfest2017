@@ -211,7 +211,7 @@
 						 noink>
 							{% for nav in navigation %}
 							<paper-tab name="{$ nav.route $}" class="nav-item" link>
-								<a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.title $}</a>
+								<a href="{$ nav.permalink $}" {% if nav.newwindow %} target='_blank' {% endif %} layout vertical center-center>{$ nav.title $}</a>
 							</paper-tab>
 							{% endfor %}
 						</paper-tabs>

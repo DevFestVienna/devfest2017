@@ -39,6 +39,7 @@
     {
       "route": "call for papers",
       "permalink": "https://cfp.gdg-vienna.at/",
+      "newwindow": true,
       "title": "Call For Papers"
     },
     {
