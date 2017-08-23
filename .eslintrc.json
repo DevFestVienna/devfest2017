@@ -1,6 +1,9 @@
 {
   "extends": ["eslint:recommended", "google"],
   "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
     "ecmaVersion": 6
   },
   "env": {
@@ -13,7 +16,12 @@
     "brace-style": "off",
     "new-cap": ["error", { "capIsNewExceptions": ["Polymer"] }],
     "no-var": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "no-unused-vars":"off",
+    "no-mixed-spaces-and-tabs":"off",
+    "no-undef":"off",
+    "max-len":"off",
+    "no-useless-escape": "off"
   },
   "globals": {
     "Polymer": true
