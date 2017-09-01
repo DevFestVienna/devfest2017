@@ -3,7 +3,7 @@
 <link rel="import" href="../elements/shared-styles.html">
 <link rel="import" href="../mixins/scroll-functions.html">
 
-<dom-module id="faq-page">
+<dom-module id="faqs-page">
     <template>
         <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
@@ -92,7 +92,7 @@
 
     <script>
         class FaqPage extends ScrollFunctions(Polymer.Element) {
-            static get is() { return 'faq-page' }
+            static get is() { return 'faqs-page' }
             static get properties() {
                 return {
                     path: {
