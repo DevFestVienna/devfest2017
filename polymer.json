@@ -10,6 +10,7 @@
     "src/pages/speakers-page.html",
     "src/pages/team-page.html",
     "src/pages/faq-page.html",
+    "src/pages/cod-page.html",
     "src/elements/video-dialog.html",
     "src/elements/speaker-details.html"
   ],

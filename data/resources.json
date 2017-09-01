@@ -89,6 +89,11 @@
 					"newTab": true
 				},
 				{
+					"name": "Code of Conduct",
+					"url": "/cod/",
+					"newTab": false
+				},
+				{
 					"name": "FAQs",
 					"url": "/faq/",
 					"newTab": false

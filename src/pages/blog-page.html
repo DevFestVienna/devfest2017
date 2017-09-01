@@ -7,48 +7,42 @@
 
 
 <dom-module id="blog-page">
-  <template>
-    <app-route
-      route="[[_route]]"
-      pattern="/:page"
-      data="{{routeData}}"
-      tail="{{subRoute}}"
-    ></app-route>
+	<template>
+		<app-route route="[[_route]]" pattern="/:page" data="{{routeData}}" tail="{{subRoute}}"></app-route>
 
-    <iron-lazy-pages attr-for-selected="data-route" selected="[[routeData.page]]">
-      <blog-list-page data-route="" data-path="./blog-list-page.html"></blog-list-page>
-      <post-page data-route="posts" data-path="./post-page.html" route="[[subRoute]]"></post-page>
-    </iron-lazy-pages>
-  </template>
+		<iron-lazy-pages attr-for-selected="data-route" selected="[[routeData.page]]">
+			<blog-list-page data-route="" data-path="./blog-list-page.html"></blog-list-page>
+			<post-page data-route="posts" data-path="./post-page.html" route="[[subRoute]]"></post-page>
+		</iron-lazy-pages>
+	</template>
 
-  <script>
+	<script>
+		class BlogPage extends ScrollFunctions(Polymer.Element) {
+			static get is() {
+				return 'blog-page';
+			}
 
-    class BlogPage extends ScrollFunctions(Polymer.Element) {
-      static get is() {
-        return 'blog-page';
-      }
+			static get properties() {
+				return {
+					route: Object,
+					active: Boolean
+				};
+			}
 
-      static get properties() {
-        return {
-          route: Object,
-          active: Boolean
-        };
-      }
+			static get observers() {
+				return [
+					'_routeChanged(active, route)'
+				];
+			}
 
-      static get observers() {
-        return [
-          '_routeChanged(active, route)'
-        ];
-      }
+			_routeChanged(active, route) {
+				if (active && route) {
+					this.scrollToY(0, 200);
+					this.set('_route', route);
+				}
+			}
+		}
 
-      _routeChanged(active, route) {
-        if (active && route) {
-          this.scrollToY(0, 200);
-          this.set('_route',  route);
-        }
-      }
-    }
-
-    customElements.define(BlogPage.is, BlogPage);
-  </script>
+		customElements.define(BlogPage.is, BlogPage);
+	</script>
 </dom-module>

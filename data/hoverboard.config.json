@@ -97,6 +97,13 @@
       },
       "fontColor": "#424242"
     },
+    "cod": {
+      "title": "Code of Conduct",
+      "background": {
+        "color": "#076f45"
+      },
+      "fontColor": "#FFF"
+    },
     "faq": {
       "title": "FAQs",
       "background": {

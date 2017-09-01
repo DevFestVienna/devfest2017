@@ -4,13 +4,10 @@
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../../bower_components/paper-material/paper-material.html">
 
 <link rel="import" href="../../bower_components/marked-element/marked-element.html">
 
 <link rel="import" href="../elements/footer-block.html">
-<link rel="import" href="../behaviors/page-behavior.html">
-<link rel="import" href="../behaviors/cascaded-behavior.html">
 
 
 <dom-module id="cod-page">
@@ -21,8 +18,7 @@
             :host {
                 display: block;
             }
-
-           
+            
             @media (min-width: 1600px) {
                 .container {
                     max-width: 960px;
@@ -32,7 +28,7 @@
 
         <iron-ajax auto id="ajax" url="[[source]]" handle-as="text" on-response="updateCascadedNodes" last-response="{{cod}}"></iron-ajax>
 
-        <div class="container"> hla
+        <div class="container">
             <div class="details">
                 <div class="details-item" cascaded>
                     <marked-element markdown="[[cod]]">
@@ -42,7 +38,6 @@
             </div>
         </div>
 
-        <footer-block app="{{app}}" cascaded></footer-block>
 
     </template>
 
@@ -51,10 +46,6 @@
             'use strict';
             Polymer({
                 is: 'cod-page',
-                behaviors: [
-                    HOVERBOARD.PageBehavior,
-                    HOVERBOARD.CascadedBehavior
-                ],
                 properties: {
                     source: {
                         type: String,

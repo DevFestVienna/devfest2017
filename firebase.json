@@ -7,7 +7,7 @@
     "cleanUrls": true,
     "rewrites": [
       {
-        "source": "**/*",
+        "source": "!/src/*",
         "destination": "/index.html"
       }
     ],
