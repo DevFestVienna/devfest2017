@@ -8,6 +8,16 @@ module.exports = {
   navigateFallbackWhitelist: [/^\/[^\_]+\//],
   runtimeCaching: [
     {
+      urlPattern: /\/pdf\/.*/,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 10,
+          name: 'items-cache'
+        }
+      }
+    },
+    {
       urlPattern: /\/images\/.*/,
       handler: 'fastest',
       options: {
