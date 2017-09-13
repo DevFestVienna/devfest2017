@@ -147,7 +147,8 @@ function compileTemplate() {
 function copyStatic() {
   return gulp.src([
     'data/**/*.{markdown,md}',
-    'images/**/*.{png,gif,jpg,svg}'
+    'images/**/*.{png,gif,jpg,svg}',
+    'pdf/**/*.pdf'
   ], {base: '.'})
     .pipe(gulp.dest(config.tempDirectory));
 }
