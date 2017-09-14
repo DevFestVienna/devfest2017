@@ -1,0 +1,16 @@
+{
+    "gallery": [
+		{
+			"speakers": "Jakub Škvára",
+			"thumbnail": "/images/sessions/116.JPG",
+			"title": "Polymer vs other libraries",
+			"youtubeId": "-UEURYYVCmg"
+		},
+		{
+			"speakers": "Buşra Deniz",
+			"thumbnail": "/images/sessions/123.JPG",
+			"title": "Google WebRTC on Mobile",
+			"youtubeId": "YWaOdwCenZM"
+		}
+	]
+}
