@@ -5,8 +5,19 @@ module.exports = {
     '/bower_components/webcomponentsjs/*.js'
   ],
   navigateFallback: '/index.html',
-  navigateFallbackWhitelist: [/^\/[^\_]+\//],
+  navigateFallbackWhitelist: [/^\/[^\_]+\//,
+                              /^\/(?!pdf|images|bower|src)/],
   runtimeCaching: [
+    {
+      urlPattern: /\/pdf\/.*/,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 10,
+          name: 'items-cache'
+        }
+      }
+    },
     {
       urlPattern: /\/images\/.*/,
       handler: 'fastest',

@@ -1,11 +1,11 @@
 {
 	"title": "DevFest Vienna 2017",
-	"description": "The biggest Google tech conference in Vienna carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+	"description": "25 - 26 November 2017, TU Wien. All about Android, Web, and Cloud from world experts and regional specialists.",
 	"keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
 	"dates": "November 25-26, 2017",
 	"partnershipProposition": "/images/DevFest_Vienna_Sponsorship.pdf",
 	"share": "Share",
-	"followOur": "Follow our",
+	"followOur": "Follow our ",
 	"followUs": "Follow us",
 	"emailUs": "Email us",
 	"partnershipResources": "Partnership Resources",
@@ -79,11 +79,6 @@
 					"newTab": true
 				},
 				{
-					"name": "Info Partnership Proposition",
-					"url": "/partners/",
-					"newTab": false
-				},
-				{
 					"name": "Call for Papers",
 					"url": "https://cfp.gdg-vienna.at/",
 					"newTab": true
@@ -104,7 +99,7 @@
 		"title": "What you need to know, before you ask.",
 		"callToAction": {
 			"featuredSessions": {
-				"description": "GDG DevFest Vienna brings together the world class experts in Android, Web and Cloud technologies to Vienna for 2 days of sessions, workshops and showcases.",
+				"description": "DevFest Vienna brings together the world class experts in Android, Web and Cloud technologies to Vienna for 2 days of sessions, workshops and showcases.",
 				"label": "Explore featured session",
 				"link": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
 			},

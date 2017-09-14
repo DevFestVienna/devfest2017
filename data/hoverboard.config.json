@@ -1,6 +1,6 @@
 {
 	"basepath": "/",
-	"url": "https://devfest2017-7447a.firebaseio.com/",
+	"url": "https://devfest.at/",
 	"startDate": "2017-11-25T09:00:00+03:00",
 	"endDate": "2017-11-26T19:00:00+03:00",
 	"analytics": {
@@ -60,7 +60,7 @@
 	],
 	"heroSettings": {
 		"home": {
-			"description": "The biggest Google tech conference in Austria. All about Android, Web, and Cloud.",
+			"description": "All about Android, Web, and Cloud from world experts and regional specialists.",
 			"background": {
 				"color": "#673ab7",
 				"image": "/images/backgrounds/home.jpg"
