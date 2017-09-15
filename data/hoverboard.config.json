@@ -37,10 +37,9 @@
 			"title": "Home"
 		},
 		{
-			"route": "call for papers",
-			"permalink": "https://cfp.gdg-vienna.at/",
-			"newwindow": true,
-			"title": "Call For Papers"
+			"route": "call for proposals",
+			"permalink": "/call/",
+			"title": "Call For Proposals"
 		},
 		{
 			"route": "schedule",
@@ -95,6 +94,13 @@
 			"background": {
 				"color": "#4099ff",
 				"image": "/images/backgrounds/team.jpg"
+			},
+			"fontColor": "#FFF"
+		},
+		"call": {
+			"title": "Call for Proposals",
+			"background": {
+				"color": "#076f45"
 			},
 			"fontColor": "#FFF"
 		},
