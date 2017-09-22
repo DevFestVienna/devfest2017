@@ -3,7 +3,7 @@
 	"description": "25 - 26 November 2017, TU Wien. All about Android, Web, and Cloud from world experts and regional specialists.",
 	"keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
 	"dates": "November 25-26, 2017",
-	"partnershipProposition": "/images/DevFest_Vienna_Sponsorship.pdf",
+	"partnershipProposition": "/pdf/DevFest_Vienna_Sponsorship.pdf",
 	"share": "Share",
 	"followOur": "Follow our ",
 	"followUs": "Follow us",
@@ -75,7 +75,7 @@
 			"links": [
 				{
 					"name": "Partnership Proposition",
-					"url": "http://devfest.at/pdf/DevFest_Vienna_Sponsorship.pdf",
+					"url": "https://devfest.at/pdf/DevFest_Vienna_Sponsorship.pdf",
 					"newTab": true
 				},
 				{
