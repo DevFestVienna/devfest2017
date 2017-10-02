@@ -41,16 +41,7 @@
 			"permalink": "/call/",
 			"title": "Call For Proposals"
 		},
-		{
-			"route": "schedule",
-			"permalink": "/schedule/",
-			"title": "Schedule"
-		},
-		{
-			"route": "speakers",
-			"permalink": "/speakers/",
-			"title": "Speakers"
-		},
+		
 		{
 			"route": "team",
 			"permalink": "/team/",
@@ -59,7 +50,8 @@
 	],
 	"heroSettings": {
 		"home": {
-			"description": "All about Android, Web, and Cloud from world experts and regional specialists.",
+			"description": "Nov.25: All about Android, Web, and Cloud from world experts and regional specialists - Vienna University of Technology",
+			"workshop": "Nov.26: Special workshop on Google Assistant - Stockwerk.",
 			"background": {
 				"color": "#673ab7",
 				"image": "/images/backgrounds/home.jpg"

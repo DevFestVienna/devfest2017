@@ -132,7 +132,7 @@
 			}
 
 			.hero-content {
-				max-width: 480px;
+				max-width: 580px;
 			}
 
 			.hero-logo {
@@ -147,8 +147,20 @@
 			}
 
 			.hero-description {
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 				max-width: 600px;
+				color: white;
+				background: #000;
+				opacity: .8;
+				border-radius: 5px;
+				padding: 3px 6px;
+			}
+			.info-item{
+				font-weight: 400;
+				font-size: 30px;
+			}
+			.info-item:not(:last-of-type) {
+				margin-right: 8px;
 			}
 
 			@media (min-width: 640px) {
@@ -232,7 +244,12 @@
 						<iron-pages selected="[[route]]" attr-for-selected="route" fallback-selection="default">
 							<div class="hero-content" route="home">
 								<plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
+								<p></p>
+								<div class="info-items highlight-font" layout="" horizontal="" wrap="">
+									<div class="info-item"><iron-icon icon="hoverboard:calendar"></iron-icon>November 25-26, 2017    <span>    </span></div>
+									<div class="info-item">  <iron-icon icon="hoverboard:location"></iron-icon>Vienna, Austria</div></div>
 								<p class="hero-description highlight-font">[[hero.description]]</p>
+								<p class="hero-description highlight-font">[[hero.workshop]]</p>
 							</div>
 							<div route="default">
 								<div class="hero-title highlight-font">[[hero.title]]</div>
