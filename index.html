@@ -88,7 +88,17 @@
     //     navigator.serviceWorker.register(baseUrl + 'service-worker.js');
     //   });
     // }
-
+    // Remove all service workers
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations()
+      .then(
+        function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister()
+          }
+        }
+      );
+    }
   </script>
 
   <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
