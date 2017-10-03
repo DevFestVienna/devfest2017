@@ -20,7 +20,7 @@
 			"links": [
 				{
 					"name": "GDG Vienna",
-					"url": "http://gdgvienna.at/",
+					"url": "http://gdg-vienna.at/",
 					"newTab": true
 				},
 				{
@@ -32,39 +32,34 @@
 					"name": "AndroidHeads Vienna",
 					"url": "http://www.androidheads.org/",
 					"newTab": true
-				},
-				{
-					"name": "Google Developers Group",
-					"url": "https://developers.google.com/",
-					"newTab": true
 				}
 			]
 		},
 		{
-			"title": "Explore Past DevFests",
+			"title": "Recordings",
 			"links": [
 				{
-					"name": "Devfest Vienna 2012",
-					"url": "http://devfest.at/recordings/#recordings-2012",
+					"name": "DevFest Vienna 2012",
+					"url": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDsF6t7XOkaYVGKDQpmH6Z5",
 					"newTab": true
 				},
 				{
-					"name": "Devfest Vienna 2013",
-					"url": "http://devfest.at/recordings/#recordings-2013",
+					"name": "DevFest Vienna 2013",
+					"url": "https://www.youtube.com/playlist?list=PL-1oG0fPzjhH5MeQNG4rph6IKBnHwGsga",
 					"newTab": true
 				},
 				{
-					"name": "Devfest Vienna 2014",
-					"url": "http://devfest.at/recordings/#recordings-2014",
+					"name": "DevFest Vienna 2014",
+					"url": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDO2ZDJoXSZ_6LByDhwOi_d",
 					"newTab": true
 				},
 				{
-					"name": "Devfest Vienna 2015",
-					"url": "http://devfest.at/recordings/#recordings-2015",
+					"name": "DevFest Vienna 2015",
+					"url": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QBseiosfy3_XqguKTvfKoLd",
 					"newTab": true
 				},
 				{
-					"name": "Devfest Vienna 2016",
+					"name": "DevFest Vienna 2016",
 					"url": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK",
 					"newTab": true
 				}
@@ -79,9 +74,9 @@
 					"newTab": true
 				},
 				{
-					"name": "Call for Papers",
-					"url": "https://cfp.gdg-vienna.at/",
-					"newTab": true
+					"name": "Call for Proposals",
+					"url": "/call/",
+					"newTab": false
 				},
 				{
 					"name": "Code of Conduct",
@@ -120,7 +115,7 @@
 			},
 			"sessions": {
 				"label": "Sessions",
-				"number": "18"
+				"number": "10+"
 			},
 			"tracks": {
 				"label": "Tracks",

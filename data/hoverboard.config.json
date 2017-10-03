@@ -53,7 +53,7 @@
 			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists @Vienna University of Technology",
 			"workshop": "26 November: Workshop on Developing for the Google Assistant @Stockwerk Coworking Space",
 			"background": {
-				"color": "#673ab7",
+				"color": "#8B4513",
 				"image": "/images/backgrounds/home.jpg"
 			},
 			"fontColor": "#FFF"
@@ -92,14 +92,16 @@
 		"call": {
 			"title": "Call for Proposals",
 			"background": {
-				"color": "#076f45"
+				"color": "#aaa",
+				"image": "/images/backgrounds/call.jpg"
 			},
 			"fontColor": "#FFF"
 		},
 		"cod": {
 			"title": "Code of Conduct",
 			"background": {
-				"color": "#076f45"
+				"color": "#076f45",
+				"image": "/images/backgrounds/cod.jpg"
 			},
 			"fontColor": "#FFF"
 		},
@@ -157,7 +159,7 @@
 			},
 			{
 				"name": "youtube",
-				"url": "https://www.youtube.com/DevfestVienna"
+				"url": "https://www.youtube.com/DevFestVienna"
 			}
 		],
 		"share": [

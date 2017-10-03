@@ -1,5 +1,3 @@
-# Call for Proposals
-
 Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance.
