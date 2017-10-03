@@ -114,8 +114,8 @@
 		}
 	},
 	"location": {
-		"short": "Vienna, Austria",
-		"address": "Gußhausstraße 27-29, Vienna , Austria",
+		"short": "TU Wien",
+		"address": "Gußhausstraße 27-29, Vienna, Austria",
 		"pointer": {
 			"latitude": 48.196305,
 			"longitude": 16.369742,
