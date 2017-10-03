@@ -18,11 +18,9 @@
 		"messagingSenderId": "279051784104"
 	},
 	"googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
-	"organizer": {
-		"name": "GDG Vienna",
-		"twitter": "gdgvienna",
-		"blog": "https://www.meetup.com/GDG-Vienna/",
-		"url": "http://www.gdg-vienna.at/"
+	"season": {
+		"name": "GDG DevFest Season 2017",
+		"url": "https://developers.google.com/events/devfest/"
 	},
 	"webapp": {
 		"shortName": "DevFest",
@@ -50,8 +48,8 @@
 	],
 	"heroSettings": {
 		"home": {
-			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists @TU Wien",
-			"workshop": "26 November: Workshop on Developing for the Google Assistant @Stockwerk Coworking Space",
+			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists at TU Wien",
+			"workshop": "26 November: Workshop on Developing for the Google Assistant at Stockwerk Coworking Space",
 			"background": {
 				"color": "#8B4513",
 				"image": "/images/backgrounds/home.jpg"
