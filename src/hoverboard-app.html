@@ -197,8 +197,8 @@
 			<app-drawer id="drawer" slot="drawer" opened="[[ui.isDrawerOpened]]" swipe-open>
 				<app-toolbar layout vertical start>
 					<plastic-image class="toolbar-logo" srcset="/images/devfest-logo.svg" alt="{$ title $}"></plastic-image>
-					<h2 class="dates">{$ dates $}</h2>
-					<h3 class="location">{$ location.short $}</h3>
+					<h2 class="dates"> {$ dates $}</h2>
+					<h3 class="location"> {$ location.short $}</h3>
 				</app-toolbar>
 
 				<iron-selector class="drawer-list" selected="[[route]]" attr-for-selected="path" selected-class="selected" role="navigation">
