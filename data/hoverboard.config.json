@@ -37,7 +37,7 @@
 			"title": "Home"
 		},
 		{
-			"route": "call for proposals",
+			"route": "call",
 			"permalink": "/call/",
 			"title": "Call For Proposals"
 		},
