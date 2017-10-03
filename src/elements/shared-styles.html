@@ -116,8 +116,6 @@
 
       .container,
       .container-narrow {
-        margin: 0 auto;
-        padding: 24px 16px;
         max-width: var(--max-container-width);
       }
 
@@ -171,12 +169,13 @@
         box-shadow: 0 0 2px 0 rgba(0,0,0,0.07), 0 2px 2px 0 rgba(0,0,0,0.15);
         transition: box-shadow var(--animation);
       }
-      @media (min-width: 640px) {
-        .container,
-        .container-narrow {
-          padding: 32px;
-        }
 
+      .container,
+      .container-narrow {
+        padding: 32px;
+      }
+
+      @media (min-width: 640px) {
         .card:hover {
           box-shadow: var(--box-shadow);
         }

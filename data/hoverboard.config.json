@@ -50,7 +50,7 @@
 	],
 	"heroSettings": {
 		"home": {
-			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists @Vienna University of Technology",
+			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists @TU Wien",
 			"workshop": "26 November: Workshop on Developing for the Google Assistant @Stockwerk Coworking Space",
 			"background": {
 				"color": "#8B4513",
@@ -114,7 +114,7 @@
 		}
 	},
 	"location": {
-		"short": "TU Wien",
+		"short": "TU Wien / Stockwerk Coworking",
 		"address": "Gußhausstraße 27-29, Vienna, Austria",
 		"pointer": {
 			"latitude": 48.196305,
@@ -125,7 +125,7 @@
 			"latitude": 48,
 			"longitude": 8
 		},
-		"description": "GDG Vienna, JSUG and AndroidHeads Vienna bring to you this amazing conference. Awesome speakers and lots of fun!"
+		"description": "Day 1 will be hosted at TU Wien (Elektrotechnik-Institut), in the center of Vienna. And the workshop on day 2 takes place at Stockwerk Coworking Space."
 	},
 	"mediaQueries": {
 		"xs": {
