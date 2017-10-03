@@ -100,7 +100,7 @@
 		"callToAction": {
 			"featuredSessions": {
 				"description": "DevFest Vienna brings together the world class experts in Android, Web and Cloud technologies to Vienna for 2 days of sessions, workshops and showcases.",
-				"label": "Explore featured session",
+				"label": "Explore last year's sessions",
 				"link": "https://www.youtube.com/playlist?list=PLNpSWnT-U_QDm-BG2UGunwB0iVQz9KGpK"
 			},
 			"howItWas": {
@@ -167,8 +167,8 @@
 		}
 	},
 	"galleryBlock": {
-		"title": "#devfestvienna 2016 highlights",
-		"description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+		"title": "#devfestvienna highlights",
+		"description": "This year's festival will build lots of excitement. Check out photos from 2016: featured talks, hands-on learning sessions, and after-hours fun.",
 		"callToAction": {
 			"label": "See all photos",
 			"link": "https://goo.gl/photos/HVMzbnTCXDthuF1A8"
