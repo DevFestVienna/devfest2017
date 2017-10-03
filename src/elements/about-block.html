@@ -106,10 +106,6 @@
 
             @media (min-width: 868px) {
 
-                .container {
-                    margin: 48px auto;
-                }
-                
                 .description-block,
                 .statistics-block {
                     padding: 48px 0;
@@ -153,17 +149,6 @@
                         </paper-button>
                     </a>
                     <p class="block-subtitle"> {$ aboutBlock.callToAction.howItWas.description $} </p>
-                    <div class="block-cta">
-                        <paper-button class="animated icon-right"
-                                        on-tap="_playVideo"
-                                        ga-on="click"
-                                        ga-event-category="video"
-                                        ga-event-action="watch"
-                                        ga-event-label="about block - {$ aboutBlock.callToAction.howItWas.label $}">
-                            <span class="cta-label">{$  aboutBlock.callToAction.howItWas.label $}</span>
-                            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-                        </paper-button>
-                    </div>
             </div>
 
             <div class="statistics-block" flex vertical>
