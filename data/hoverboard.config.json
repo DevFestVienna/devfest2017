@@ -49,7 +49,7 @@
 	"heroSettings": {
 		"home": {
 			"description": "25 November: All about Android, Web, and Cloud from world experts and regional specialists at TU Wien",
-			"workshop": "26 November: Workshop on Developing for the Google Assistant at Stockwerk Coworking Space",
+			"workshop": "26 November: Workshop on Developing for the Google Assistant at Stockwerk Coworking",
 			"background": {
 				"color": "#8B4513",
 				"image": "/images/backgrounds/home.jpg"
@@ -123,7 +123,7 @@
 			"latitude": 48,
 			"longitude": 8
 		},
-		"description": "Day 1 will be hosted at TU Wien (Elektrotechnik-Institut), in the center of Vienna. And the workshop on day 2 takes place at Stockwerk Coworking Space."
+		"description": "Day 1 will be hosted at TU Wien (Elektrotechnik-Institut), in the center of Vienna. And the workshop on day 2 takes place at Stockwerk Coworking."
 	},
 	"mediaQueries": {
 		"xs": {
