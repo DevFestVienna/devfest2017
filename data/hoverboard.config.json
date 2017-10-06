@@ -34,11 +34,6 @@
 			"permalink": "/",
 			"title": "Home"
 		},
-		{
-			"route": "call",
-			"permalink": "/call/",
-			"title": "Call for Proposals"
-		},
 		
 		{
 			"route": "team",
