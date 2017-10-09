@@ -74,11 +74,6 @@
 					"newTab": true
 				},
 				{
-					"name": "Call for Proposals",
-					"url": "/call/",
-					"newTab": false
-				},
-				{
 					"name": "Code of Conduct",
 					"url": "/cod/",
 					"newTab": false
