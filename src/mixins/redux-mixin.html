@@ -22,27 +22,54 @@
         title: ''
       }
     },
-    route: 'home',
+    routing: {
+      route: 'home'
+    },
     hero: null,
     dialogs: {
       [DIALOGS.SPEAKER]: {
         isOpened: false,
         data: {}
-      }
+      },
+      [DIALOGS.SESSION]: {
+        isOpened: false,
+        data: {}
+      },
+      [DIALOGS.SUBSCRIBE]: {
+        isOpened: false,
+        data: {}
+      },
+      [DIALOGS.SIGNIN]: {
+        isOpened: false,
+        data: {}
+      },
     },
     tickets: [],
     partners: [],
     videos: [],
     blog: {},
     speakers: {},
+    sessions: {
+      list: {},
+      featured: {}
+    },
+    schedule: {},
     gallery: [],
-    team: []
+    team: [],
+    user: {
+      signedIn: false
+    },
+    subscribed: false,
+    toast: {},
+    notifications: {
+      status: NOTIFICATIONS_STATUS.DEFAULT
+    }
   };
 
   const appReducer = (state = initialState, action) => {
     return {
       ui: uiReducer(state.ui, action),
-      route: routeReducer(state.route, action),
+      routing: routingReducer(state.routing, action),
       hero: heroReducer(state.hero, action),
       dialogs: dialogsReducer(state.dialogs, action),
       tickets: ticketsReducer(state.tickets, action),
@@ -50,8 +77,14 @@
       videos: videosReducer(state.videos, action),
       blog: blogReducer(state.blog, action),
       speakers: speakersReducer(state.speakers, action),
+      sessions: sessionsReducer(state.sessions, action),
+      schedule: scheduleReducer(state.schedule, action),
       gallery: galleryReducer(state.gallery, action),
-      team: teamReducer(state.team, action)
+      team: teamReducer(state.team, action),
+      user: userReducer(state.user, action),
+      subscribed: subscribeReducer(state.subscribed, action),
+      toast: toastReducer(state.toast, action),
+      notifications: notificationsReducer(state.notifications, action)
     };
   };
 

@@ -1,0 +1,265 @@
+{
+	"gallery": [
+		"/images/gallery/DSC_0105.jpg",
+		"/images/gallery/DSC_0035.jpg",
+		"/images/gallery/DSC_0115.jpg",
+		"/images/gallery/DSC_0018.jpg",
+		"/images/gallery/DSC_0071.jpg",
+		"/images/gallery/DSC_0012.jpg",
+		"/images/gallery/002.jpg",
+		"/images/gallery/003.jpg"
+	],
+	"partners": [
+		{
+			"logos": [
+				{
+					"logoUrl": "/images/logos/logo-google.png",
+					"name": "Google Developers",
+					"url": "https://developers.google.com/"
+				},
+				{
+					"logoUrl": "/images/logos/logo-willhaben.png",
+					"name": "Willhaben",
+					"url": "http://jobsbei.willhaben.at/"
+				}
+			],
+			"title": "Platinum"
+		},
+		{
+			"logos": [
+				{
+					"logoUrl": "/images/logos/logo-ibm-cic.jpg",
+					"name": "IBM Client Innovation Center",
+					"url": "https://cic-austria.eu-gb.mybluemix.net/"
+				}
+			],
+			"title": "Silver"
+		}
+	],
+	"schedule": {
+		"days": [
+			"Day 1",
+			"Day 2"
+		]
+	},
+	"team": [
+		{
+			"members": [
+				{
+					"name": "Timea Turdean",
+					"photoUrl": "/images/people/timea_turdean.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/+TimeaTurdean_imy",
+							"name": "Google+"
+						},
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/timea.turdean",
+							"name": "Facebook"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/TimeaTurdean",
+							"name": "Twitter"
+						},
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/timeaturdean/",
+							"name": "Linkedin"
+						},
+						{
+							"icon": "website",
+							"link": "http://timeaturdean.com/",
+							"name": "Blog"
+						}
+					],
+					"title": "GDG Organizer"
+				},
+				{
+					"name": "Marc Edem Aziahome",
+					"photoUrl": "/images/people/marc_edem.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/+MarcEdem",
+							"name": "Google+"
+						},
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/edemmarc",
+							"name": "Facebook"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/marc_edem",
+							"name": "Twitter"
+						},
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/marcedem/",
+							"name": "Linkedin"
+						},
+						{
+							"icon": "website",
+							"link": "https://marcedem.com/",
+							"name": "Blog"
+						}
+					],
+					"title": "GDG Organizer"
+				},
+				{
+					"name": "Siegfried Göschl",
+					"photoUrl": "/images/people/siegfried.jpg",
+					"socials": [
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/siegfried-goeschl-0410432/",
+							"name": "Linkedin"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/SiegfriedGoesch",
+							"name": "Twitter"
+						},
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/110357266569162057202",
+							"name": "Google+"
+						}
+					],
+					"title": "Java Vienna"
+				},
+				{
+					"name": "Kariem Hussein",
+					"photoUrl": "/images/people/kariem_hussein.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/+KariemHussein",
+							"name": "Google+"
+						},
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/kariem.hussein",
+							"name": "Facebook"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/kariem",
+							"name": "Twitter"
+						},
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/kariem/",
+							"name": "Linkedin"
+						}
+					],
+					"title": "GDG Organizer"
+				},
+				{
+					"name": "Dominik Dorn",
+					"photoUrl": "/images/people/dominik_dorn.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/117779325149347913660",
+							"name": "Google+"
+						},
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/dominik.dorn",
+							"name": "Facebook"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/domdorn",
+							"name": "Twitter"
+						},
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/dominik-dorn-bb1b4266/",
+							"name": "Linkedin"
+						}
+					],
+					"title": "Java Vienna"
+				},
+				{
+					"name": "Helmuth Breitenfellner",
+					"photoUrl": "/images/people/helmuth.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/+HelmuthBreitenfellner",
+							"name": "Google+"
+						},
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/helmuth.breitenfellner",
+							"name": "Facebook"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/HelmuthB",
+							"name": "Twitter"
+						},
+						{
+							"icon": "linkedin",
+							"link": "https://www.linkedin.com/in/helmuthbreitenfellner/",
+							"name": "Linkedin"
+						}
+					],
+					"title": "GDG Organizer"
+				},
+				{
+					"name": "Robert Hesele",
+					"photoUrl": "/images/people/robert_hesele.jpg",
+					"socials": [
+						{
+							"icon": "gplus",
+							"link": "https://plus.google.com/+RobertHesele",
+							"name": "Google+"
+						},
+						{
+							"icon": "twitter",
+							"link": "https://twitter.com/RHesele",
+							"name": "Twitter"
+						}
+					],
+					"title": "GDG Organizer"
+				}
+			],
+			"title": "Core Team"
+		},
+		{
+			"members": [
+				{
+					"name": "Candy Chris",
+					"photoUrl": "/images/people/candy_chris.jpg",
+					"socials": [
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/candy.chris.56",
+							"name": "Facebook"
+						}
+					],
+					"title": "WTM"
+				},
+				{
+					"name": "Diana Vysoká",
+					"photoUrl": "/images/people/diana_vysoka.jpg",
+					"socials": [
+						{
+							"icon": "facebook",
+							"link": "https://www.facebook.com/diana.vysoka.1",
+							"name": "Facebook"
+						}
+					],
+					"title": "WTM"
+				}
+			],
+			"title": "Program Assistant"
+		}
+	]
+}

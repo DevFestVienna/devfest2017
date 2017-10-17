@@ -39,7 +39,20 @@
 			"route": "team",
 			"permalink": "/team/",
 			"title": "Team"
+		},
+		
+		{
+			"route": "schedule",
+			"permalink": "/schedule/",
+			"title": "Agenda"
+		},
+
+		{
+			"route": "speakers",
+			"permalink": "/speakers/",
+			"title": "Speakers"
 		}
+
 	],
 	"heroSettings": {
 		"home": {
