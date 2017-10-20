@@ -43,8 +43,9 @@
 		
 		{
 			"route": "schedule",
-			"permalink": "/schedule/",
-			"title": "Agenda"
+			"subroute": "2017-11-25",
+			"permalink": "/schedule/2017-11-25",
+			"title": "Schedule"
 		},
 
 		{
@@ -73,7 +74,7 @@
 		},
 		"speakers": {
 			"title": "Speakers",
-			"description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud, web and mobile. Check back often as we add more speakers and incredible sessions.",
+			"description": "Hear from our awesome speakers who are building the future of cloud, web and mobile. Check back often as we add more speakers and incredible sessions.",
 			"background": {
 				"color": "#a4c639",
 				"image": "/images/backgrounds/speakers.jpg"
