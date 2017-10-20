@@ -42,13 +42,6 @@
 		},
 		
 		{
-			"route": "schedule",
-			"subroute": "2017-11-25",
-			"permalink": "/schedule/2017-11-25",
-			"title": "Schedule"
-		},
-
-		{
 			"route": "speakers",
 			"permalink": "/speakers/",
 			"title": "Speakers"
