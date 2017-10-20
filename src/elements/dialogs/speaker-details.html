@@ -94,7 +94,7 @@
           <h3>{$ speakerDetails.sessions $}</h3>
 
           <template is="dom-repeat" items="[[speaker.sessions]]" as="session">
-            <!-- <a href$="/schedule?sessionId=[[session.id]]" class="section" on-tap="close"> -->
+            <!-- <a href$="/schedule/?sessionId=[[session.id]]" class="section"> -->
               <div layout horizontal center>
                 <div class="section-details" flex>
                   <div class="section-primary-text">[[session.title]]</div>
