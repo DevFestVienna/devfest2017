@@ -60,7 +60,7 @@
 			"workshop": "26 November: Workshop on Developing for the Google Assistant at Stockwerk Coworking",
 			"background": {
 				"color": "#8B4513",
-				"image": "/images/backgrounds/home.jpg"
+				"image": "/images/backgrounds/home2.jpg"
 			},
 			"fontColor": "#FFF"
 		},
@@ -73,16 +73,18 @@
 		},
 		"speakers": {
 			"title": "Speakers",
-			"description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+			"description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud, web and mobile. Check back often as we add more speakers and incredible sessions.",
 			"background": {
-				"color": "#a4c639"
+				"color": "#a4c639",
+				"image": "/images/backgrounds/speakers.jpg"
 			},
-			"fontColor": "#424242"
+			"fontColor": "#FFF"
 		},
 		"schedule": {
 			"title": "Schedule",
 			"background": {
 				"color": "rgba(33, 147, 176, 0.1)",
+				"image": "/images/backgrounds/schedule.jpg",
 				"gradient": "linear-gradient(to right, #2193b0, #6dd5ed)"
 			},
 			"fontColor": "#fff"
