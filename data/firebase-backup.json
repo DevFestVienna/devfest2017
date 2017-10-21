@@ -1,0 +1,654 @@
+{
+  "gallery" : [ "/images/gallery/DSC_0105.jpg", "/images/gallery/DSC_0035.jpg", "/images/gallery/DSC_0115.jpg", "/images/gallery/DSC_0018.jpg", "/images/gallery/DSC_0071.jpg", "/images/gallery/DSC_0012.jpg", "/images/gallery/002.jpg", "/images/gallery/003.jpg" ],
+  "partners" : [ {
+    "logos" : [ {
+      "logoUrl" : "/images/logos/logo-google.png",
+      "name" : "Google Developers",
+      "url" : "https://developers.google.com/"
+    }, {
+      "logoUrl" : "/images/logos/logo-willhaben.png",
+      "name" : "Willhaben",
+      "url" : "http://jobsbei.willhaben.at/"
+    } ],
+    "title" : "Platinum"
+  }, {
+    "logos" : [ {
+      "logoUrl" : "/images/logos/logo-ibm-cic.jpg",
+      "name" : "IBM Client Innovation Center",
+      "url" : "https://cic-austria.eu-gb.mybluemix.net/"
+    } ],
+    "title" : "Silver"
+  } ],
+  "schedule" : [ {
+    "date" : "2017-11-25",
+    "dateReadable" : "25 November",
+    "navName" : "Conference - 25 November",
+    "timeslots" : [ {
+      "endTime" : "09:45",
+      "sessions" : [ [ 132 ] ],
+      "startTime" : "09:00"
+    }, {
+      "endTime" : "10:00",
+      "sessions" : [ [ 136 ] ],
+      "startTime" : "09:45"
+    }, {
+      "endTime" : "10:30",
+      "sessions" : [ [ 102 ], [ 107 ] ],
+      "startTime" : "10:00"
+    }, {
+      "endTime" : "11:00",
+      "sessions" : [ [ 108 ], [ 109 ] ],
+      "startTime" : "10:30"
+    }, {
+      "endTime" : "11:30",
+      "sessions" : [ [ 135 ] ],
+      "startTime" : "11:00"
+    }, {
+      "endTime" : "12:30",
+      "sessions" : [ [ 103 ], [ 104 ] ],
+      "startTime" : "11:30"
+    }, {
+      "endTime" : "13:30",
+      "sessions" : [ [ 133 ] ],
+      "startTime" : "12:30"
+    }, {
+      "endTime" : "14:00",
+      "sessions" : [ [ 111 ], [ 126 ] ],
+      "startTime" : "13:30"
+    }, {
+      "endTime" : "15:00",
+      "sessions" : [ [ 105 ], [ 101 ] ],
+      "startTime" : "14:00"
+    }, {
+      "endTime" : "15:30",
+      "sessions" : [ [ 134 ] ],
+      "startTime" : "15:00"
+    }, {
+      "endTime" : "16:30",
+      "sessions" : [ [ 110 ], [ 129 ] ],
+      "startTime" : "15:30"
+    }, {
+      "endTime" : "17:00",
+      "sessions" : [ [ 106 ], [ 125 ] ],
+      "startTime" : "16:30"
+    }, {
+      "endTime" : "18:00",
+      "sessions" : [ [ 126 ], [ 127 ] ],
+      "startTime" : "17:00"
+    }, {
+      "endTime" : "23:59",
+      "sessions" : [ [ 137 ] ],
+      "startTime" : "18:00"
+    } ],
+    "tracks" : [ {
+      "title" : "Willhaben Room"
+    }, {
+      "title" : "Room 2"
+    } ]
+  }, {
+    "date" : "2017-11-26",
+    "dateReadable" : "26 November",
+    "navName" : "Workshops - 26 November",
+    "timeslots" : [ {
+      "endTime" : "10:10",
+      "sessions" : [ [ 135 ] ],
+      "startTime" : "09:30"
+    }, {
+      "endTime" : "10:50",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "10:10"
+    }, {
+      "endTime" : "11:40",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "11:00"
+    }, {
+      "endTime" : "12:30",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "11:50"
+    }, {
+      "endTime" : "14:00",
+      "sessions" : [ [ 133 ] ],
+      "startTime" : "12:30"
+    }, {
+      "endTime" : "14:40",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "14:00"
+    }, {
+      "endTime" : "15:30",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "14:50"
+    }, {
+      "endTime" : "16:00",
+      "sessions" : [ [ 122 ] ],
+      "startTime" : "15:30"
+    }, {
+      "endTime" : "16:40",
+      "sessions" : [ [ 131 ] ],
+      "startTime" : "16:00"
+    }, {
+      "endTime" : "17:30",
+      "sessions" : [ [ 115 ] ],
+      "startTime" : "16:50"
+    } ],
+    "tracks" : [ {
+      "title" : "Stockwerk Coworking"
+    }, {
+      "title" : "Second Column"
+    } ]
+  } ],
+  "sessions" : {
+    "101" : {
+      "description" : "On 3 October Google announced the public beta of Cloud Firestore, the new realtime database in Firebase.\nTopics of the talk:\n* Introduction to Firestore\n* Structuring, storing & querying data from Firestore\n* Offline use\nCode samples will be mainly for Web but also for Android.",
+      "id" : 101,
+      "speakers" : [ 1 ],
+      "tags" : [ "Firebase" ],
+      "title" : "Cloud Firestore - the new database for Firebase"
+    },
+    "102" : {
+      "description" : "The talk will be a short introduction to an ongoing research project that is trying to assess security risks of public and unencrypted Wi-Fi hotspots. For the study, an Android app is automatically connecting to open Wi-Fi hotspots, testing limitations (e.g. blocked ports), and collecting information about the hotspot. Furthermore, the app is sending “honey traffic” that includes sensitive data like login credentials for different services, that could be eavesdropped and abused by attackers. By controlling the server that offers those services, we are able to detect if data has been intercepted.",
+      "id" : 102,
+      "speakers" : [ 2 ],
+      "tags" : [ "Security" ],
+      "title" : "Honey Wi-Fi Traffic: A case study on Wi-Fi security"
+    },
+    "103" : {
+      "description" : "Kotlin is the hot new thing in the Android world, but adapting a new technology is always a daunting task, especially if you have a large existing code-base. This talk is about how we managed to gradually migrate the willhaben Android app to 100% Kotlin code, and what our Android team learned along the way.",
+      "id" : 103,
+      "speakers" : [ 3 ],
+      "tags" : [ "Android", "Kotlin" ],
+      "title" : "The road to pure Kotlin"
+    },
+    "104" : {
+      "description" : "Insights into how a company the size of Jumio Corporation handles migration to a new technology stack, heavily based on microservices and tries to leverage modern tools (Consul, Vagrant and Docker) to make the life of developers easier. Some knowledge about Docker, Consul, Vagrant and the Spring stack (i.e. Spring Boot) is expected.",
+      "id" : 104,
+      "speakers" : [ 4 ],
+      "tags" : [ "Architecture" ],
+      "title" : "Microservices at Jumio - the journey so far..."
+    },
+    "105" : {
+      "description" : "There are many platforms to create your product, however there is still just one set of laws you must comply with. With different methods of presentation of your product, there sometimes comes a challenge when trying to comply with every legal requirement there is - especially personal data. From May 25th, 2018, there is a complete overhaul of personal data processing and collection (GDPR). Don't miss out on responsibilities you have to cover to avoid any legal action against you and your product.",
+      "id" : 105,
+      "speakers" : [ 5 ],
+      "tags" : [ "Legal" ],
+      "title" : "Coding legally: A how to guide to meet new legal requirements on personal data"
+    },
+    "106" : {
+      "description" : "The CAP theorem proved it mathematically that you can’t build a distributed database that is both consistent and highly available. In spite of this, Google’s Cloud Spanner promises a consistent infinitely scalable distributed database combining the advantages of the SQL and NoSQL world. How is this technologically possible? And how does it work in practice? At Doctusoft, we face challenges every day that could be solved by Spanner. Our multi TB cloud application called AODocs is presented as a case study, to show the problems caused by using a NoSQL database and how Spanner could resolve them.",
+      "id" : 106,
+      "speakers" : [ 6 ],
+      "tags" : [ "Cloud" ],
+      "title" : "Why should Spanner excite you?"
+    },
+    "107" : {
+      "description" : "This talk demonstrates how a continuous delivery deployment pipeline can be set up harnessing jenkins 2’s Pipeline as Code features as well as its new Blue Ocean User Experience.",
+      "id" : 107,
+      "speakers" : [ 7 ],
+      "tags" : [ "Architecture" ],
+      "title" : "Continuous Delivery with Jenkins Pipelines"
+    },
+    "108" : {
+      "description" : "We implemented a feed component which serves as the central background component for our newly designed apps. The feed receives data from multiple different sources and components. The data needs to be postprocessend and some of it also requires interaction between the components to correlate it correctly. We have to make sure that each component is handled in a performant and secure way, while ensuring that the feed also works if one or multiple components fail. Therefore we used Gatling to performance test the components to guarantee that that it delivers its data in a specific amount of time. Hystrix was used to handle component failures and downtimes. That process involved many parties in our company.",
+      "id" : 108,
+      "speakers" : [ 8 ],
+      "tags" : [ "Architecture" ],
+      "title" : "How to build a personalized feed for willhaben apps which delivers in under 200ms"
+    },
+    "109" : {
+      "description" : "In the last I/O, Google’s Android framework team introduced the android.arch library. For the first time, Google is giving developers a head-start on which principles to follow when developing Android applications. This library solves practically the most persisting problem in Android development. Other than that, it reduces boiler-plate. This library promotes the MVVM(Model-View-ViewModel) design pattern and it pushes android applications down the functional/reactivity road. The MVVM principle eases unit testing and makes Android applications modular. It ensures there is little or no room for resource leaks.",
+      "id" : 109,
+      "speakers" : [ 9 ],
+      "tags" : [ "Android" ],
+      "title" : "ANDROID ARCHITECTURE COMPONENTS: Dawn of a new era in Android development"
+    },
+    "110" : {
+      "description" : "Angular is built on top of RxJS. Take a glimpse into the Functional Reactive Programming (FRP) way of creating Angular components. Introducing FRP to your code can make it more robust, especially when working with asynchronous data streams. Gergely is going to explain how to make use of RxJS, and how to improve your code with it.",
+      "id" : 110,
+      "speakers" : [ 10 ],
+      "tags" : [ "Web" ],
+      "title" : "Angular 2+ components with RxJS"
+    },
+    "111" : {
+      "description" : "Web Components are the future of web development. In the talk, I will be giving introduction to Stenciljs, a build time tool to create Web Components. We will see how with the help of stenciljs, we can create reusable web components with very easy to understand syntax, which works across all the major browsers.",
+      "id" : 111,
+      "speakers" : [ 11 ],
+      "tags" : [ "Web" ],
+      "title" : "Creating Web Components with Stenciljs"
+    },
+    "112" : {
+      "description" : "TBA",
+      "id" : 112,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "113" : {
+      "description" : "TBA",
+      "id" : 113,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "114" : {
+      "description" : "TBA",
+      "id" : 114,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "115" : {
+      "description" : "TBA",
+      "id" : 115,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "116" : {
+      "description" : "TBA",
+      "id" : 116,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "117" : {
+      "description" : "TBA",
+      "id" : 117,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "118" : {
+      "description" : "TBA",
+      "id" : 118,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "119" : {
+      "description" : "TBA",
+      "id" : 119,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "120" : {
+      "description" : "TBA",
+      "id" : 120,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "121" : {
+      "description" : "TBA",
+      "id" : 121,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "122" : {
+      "description" : "TBA",
+      "id" : 122,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "123" : {
+      "description" : "TBA",
+      "id" : 123,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "124" : {
+      "description" : "TBA",
+      "id" : 124,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "125" : {
+      "description" : "TBA",
+      "id" : 125,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "126" : {
+      "description" : "TBA",
+      "id" : 126,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "127" : {
+      "description" : "TBA",
+      "id" : 127,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "128" : {
+      "description" : "TBA",
+      "id" : 128,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "129" : {
+      "description" : "TBA",
+      "id" : 129,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "130" : {
+      "description" : "TBA",
+      "id" : 130,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "131" : {
+      "description" : "TBA",
+      "id" : 131,
+      "tags" : [ "TBA" ],
+      "title" : "TBA"
+    },
+    "132" : {
+      "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
+      "id" : 132,
+      "image" : "/images/backgrounds/registration.jpg",
+      "title" : "Registration & Breakfast",
+      "track" : {
+        "title" : "Hall"
+      }
+    },
+    "133" : {
+      "description" : "Foooooooood!",
+      "id" : 133,
+      "image" : "/images/backgrounds/lunch.jpg",
+      "title" : "Lunch",
+      "track" : {
+        "title" : "Hall"
+      }
+    },
+    "134" : {
+      "description" : "Coffeeeeeee!",
+      "id" : 134,
+      "image" : "/images/backgrounds/coffee-break.jpg",
+      "title" : "Coffee break",
+      "track" : {
+        "title" : "Hall"
+      }
+    },
+    "135" : {
+      "description" : "Coffeeeeeee!",
+      "id" : 135,
+      "image" : "/images/backgrounds/morning.jpg",
+      "title" : "Morning coffee",
+      "track" : {
+        "title" : "Hall"
+      }
+    },
+    "136" : {
+      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "id" : 136,
+      "image" : "/images/backgrounds/opening.jpg",
+      "title" : "DevFest Vienna Opening",
+      "track" : {
+        "title" : "Hall"
+      }
+    },
+    "137" : {
+      "description" : "Afterparty is a great time to have some fun and meet new people",
+      "id" : 137,
+      "image" : "/images/backgrounds/party.jpg",
+      "title" : "Afterparty & Networking",
+      "track" : {
+        "title" : "Location to be announced"
+      }
+    },
+    "138" : {
+      "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+      "id" : 138,
+      "image" : "/images/backgrounds/closing.jpg",
+      "title" : "Conference closing and contest winners announcements"
+    }
+  },
+  "speakers" : [ null, {
+    "bio" : "Helmuth is working as a software engineer at CTBTO, the international watchdog for nuclear test explosions. In his free time he is playing around with Google technology, and he is one of the leads of GDG Vienna.",
+    "company" : "GDG Vienna",
+    "companyLogo" : "/images/logos/logo-gdg-vienna.jpg",
+    "country" : "Vienna, Austria",
+    "featured" : false,
+    "id" : 1,
+    "name" : "Helmuth Breitenfellner",
+    "photoUrl" : "/images/people/helmuth.jpg",
+    "shortBio" : "Helmuth is working as a software engineer at CTBTO, the international watchdog for nuclear test explosions. In his free time he is playing around with Google technology, and he is one of the leads of GDG Vienna.",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/helmuthbreitenfellner",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/helmuthb",
+      "name" : "Twitter"
+    }, {
+      "icon" : "github",
+      "link" : "https://github.com/helmuthb",
+      "name" : "GitHub"
+    } ],
+    "tags" : [ "Firebase", "Web", "Android" ],
+    "title" : "GDG Vienna Lead"
+  }, {
+    "bio" : "She received a bachelor’s degree in Business Informatics from the TU Wien has worked as a software developer and security awareness trainer for several years. Stefanie is currently working at SBA Research and writing on her master thesis in Software Engineering.",
+    "featured" : true,
+    "id" : 2,
+    "name" : "Stefanie Plieschnegger",
+    "photoUrl" : "/images/people/stefanie_plieschnegger.jpg",
+    "shortBio" : "She received a bachelor’s degree in Business Informatics from the TU Wien has worked as a software developer and security awareness trainer for several years. Stefanie is currently working at SBA Research and writing on her master thesis in Software Engineering."
+  }, {
+    "bio" : "I started with Android development in early 2010 and have worked for multiple companies as an Android developer. Currently, I am the team lead for the mobile apps team at willhaben in Vienna, Austria.",
+    "company" : "willhaben",
+    "featured" : false,
+    "id" : 3,
+    "name" : "Thorsten Schillo",
+    "photoUrl" : "/images/people/thorsten_schillo.jpg",
+    "shortBio" : "I started with Android development in early 2010 and have worked for multiple companies as an Android developer. Currently, I am the team lead for the mobile apps team at willhaben in Vienna, Austria."
+  }, {
+    "bio" : "Backend developer working with Java and the Spring stack focusing on breaking up monoliths.",
+    "id" : 4,
+    "name" : "Blazej Pindelski",
+    "photoUrl" : "/images/people/blazej_pindelski.jpg",
+    "shortBio" : "Backend developer working with Java and the Spring stack focusing on breaking up monoliths."
+  }, {
+    "bio" : "Milos is a lawyer specializing in Intellectual Property in connection with Consumer Protection and its use in Cyberspace and cross-border environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently lives in Bratislava.",
+    "featured" : false,
+    "name" : "Milos Pupik",
+    "photoUrl" : "/images/people/milos_pupik.jpg",
+    "shortBio" : "Milos is a lawyer specializing in Intellectual Property in connection with Consumer Protection and its use in Cyberspace and cross-border environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently lives in Bratislava."
+  }, {
+    "bio" : "Tamás is the CTO at Doctusoft a cloud engineering company specializing in Google Cloud Platform development since 2011. He is also the lead developer of AODocs since 2012. AODocs is a multi tenant application built on the Google Cloud Platform with more than 2M users including Google. It is used to complete Google Drive with additional capabilities such as advanced access management.",
+    "featured" : false,
+    "name" : "Tamás Tőzsér",
+    "photoUrl" : "/images/people/tamas_tozser.jpg",
+    "shortBio" : "Tamás is the CTO at Doctusoft a cloud engineering company specializing in Google Cloud Platform development since 2011. He is also the lead developer of AODocs since 2012. AODocs is a multi tenant application built on the Google Cloud Platform with more than 2M users including Google. It is used to complete Google Drive with additional capabilities such as advanced access management."
+  }, {
+    "bio" : "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes.",
+    "name" : "Roman Pickl",
+    "photoUrl" : "/images/people/roman_pickl.jpg",
+    "shortBio" : "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes."
+  }, {
+    "bio" : "Software Engineer at willhaben, Master in Software Engineering at TU Wien, Lifelong hobby programmer",
+    "company" : "willhaben",
+    "featured" : false,
+    "name" : "Bernhard Bonigl",
+    "shortBio" : "Software Engineer at willhaben, Master in Software Engineering at TU Wien, Lifelong hobby programmer"
+  }, {
+    "bio" : "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa",
+    "featured" : true,
+    "name" : "Ayokunle Paul",
+    "photoUrl" : "/images/people/ayokunle_paul.jpg",
+    "shortBio" : "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa"
+  }, {
+    "bio" : "Gergely is a frontend architect at Doctusoft. He is a Typescript and Javascript ecosystem enthusiast, and seeks solutions to build complex user interfaces effectively. He worked on several international projects mainly with AngularJS and Angular.",
+    "featured" : false,
+    "name" : "Gergely Sipos",
+    "photoUrl" : "/images/people/gergely_sipos.jpg",
+    "shortBio" : "Gergely is a frontend architect at Doctusoft. He is a Typescript and Javascript ecosystem enthusiast, and seeks solutions to build complex user interfaces effectively. He worked on several international projects mainly with AngularJS and Angular."
+  }, {
+    "bio" : "Indermohan Singh is Mobile App Developer, working at Greentube GmbH in Vienna, Austria. For the past 3 and half years, he is working on Angular, Ionic, TypeScript most of the time. He authored \"Ionic 2 Blueprint\" for Packt Publication. Currently he is writing an another book on Ionic.",
+    "featured" : true,
+    "name" : "Indermohan Singh",
+    "photoUrl" : "/images/people/indermohan_singh.jpg",
+    "shortBio" : "Indermohan Singh is Mobile App Developer, working at Greentube GmbH in Vienna, Austria. For the past 3 and half years, he is working on Angular, Ionic, TypeScript most of the time. He authored \"Ionic 2 Blueprint\" for Packt Publication. Currently he is writing an another book on Ionic."
+  } ],
+  "team" : [ {
+    "members" : [ {
+      "name" : "Timea Turdean",
+      "photoUrl" : "/images/people/timea_turdean.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+TimeaTurdean_imy",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/timea.turdean",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/TimeaTurdean",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/timeaturdean/",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "website",
+        "link" : "http://timeaturdean.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "GDG Organizer"
+    }, {
+      "name" : "Marc Edem Aziahome",
+      "photoUrl" : "/images/people/marc_edem.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+MarcEdem",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/edemmarc",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/marc_edem",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/marcedem/",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "website",
+        "link" : "https://marcedem.com/",
+        "name" : "Blog"
+      } ],
+      "title" : "GDG Organizer"
+    }, {
+      "name" : "Siegfried Göschl",
+      "photoUrl" : "/images/people/siegfried.jpg",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/siegfried-goeschl-0410432/",
+        "name" : "Linkedin"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/SiegfriedGoesch",
+        "name" : "Twitter"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/110357266569162057202",
+        "name" : "Google+"
+      } ],
+      "title" : "Java Vienna"
+    }, {
+      "name" : "Kariem Hussein",
+      "photoUrl" : "/images/people/kariem_hussein.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+KariemHussein",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/kariem.hussein",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kariem",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/kariem/",
+        "name" : "Linkedin"
+      } ],
+      "title" : "GDG Organizer"
+    }, {
+      "name" : "Dominik Dorn",
+      "photoUrl" : "/images/people/dominik_dorn.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/117779325149347913660",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/dominik.dorn",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/domdorn",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/dominik-dorn-bb1b4266/",
+        "name" : "Linkedin"
+      } ],
+      "title" : "Java Vienna"
+    }, {
+      "name" : "Helmuth Breitenfellner",
+      "photoUrl" : "/images/people/helmuth.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+HelmuthBreitenfellner",
+        "name" : "Google+"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/helmuth.breitenfellner",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/HelmuthB",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/helmuthbreitenfellner/",
+        "name" : "Linkedin"
+      } ],
+      "title" : "GDG Organizer"
+    }, {
+      "name" : "Robert Hesele",
+      "photoUrl" : "/images/people/robert_hesele.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+RobertHesele",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/RHesele",
+        "name" : "Twitter"
+      } ],
+      "title" : "GDG Organizer"
+    } ],
+    "title" : "Core Team"
+  }, {
+    "members" : [ {
+      "name" : "Candy Chris",
+      "photoUrl" : "/images/people/candy_chris.jpg",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/candy.chris.56",
+        "name" : "Facebook"
+      } ],
+      "title" : "WTM"
+    }, {
+      "name" : "Diana Vysoká",
+      "photoUrl" : "/images/people/diana_vysoka.jpg",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/diana.vysoka.1",
+        "name" : "Facebook"
+      } ],
+      "title" : "WTM"
+    } ],
+    "title" : "Program Assistant"
+  } ]
+}
