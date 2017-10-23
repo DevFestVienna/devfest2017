@@ -36,9 +36,9 @@
 		},
 		
 		{
-			"route": "team",
-			"permalink": "/team/",
-			"title": "Team"
+			"route": "speakers",
+			"permalink": "/speakers/",
+			"title": "Speakers"
 		},
 		
 		{
@@ -46,11 +46,20 @@
 			"permalink": "/schedule/",
 			"title": "Schedule"
 		},
+		
+		{
+			"route": "team",
+			"permalink": "/team/",
+			"title": "Team"
+		},
 
 		{
-			"route": "speakers",
-			"permalink": "/speakers/",
-			"title": "Speakers"
+			"route": "register",
+			"permalink": "https://www.eventbrite.com/e/devfest-vienna-2017-registration-39124080177",
+			"title": "Register Now",
+			"target": "_blank",
+			"cssClass": "registerClass"
+
 		}
 
 	],

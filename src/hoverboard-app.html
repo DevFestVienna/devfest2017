@@ -200,6 +200,12 @@
         margin-right: 8px;
       }
 
+      .registerClass {
+				background-color: #673AB7;
+				color: #FFF !important;
+				border-top: 1px solid #FFF;
+			}
+
       @media (min-width: 640px) {
         app-toolbar {
           padding: 0 36px;
@@ -255,7 +261,7 @@
           role="navigation"
         >
           {% for nav in navigation %}
-          <a href="{$ nav.permalink $}" path="{$ nav.route $}" on-tap="closeDrawer">{$ nav.title $}</a>
+          <a href="{$ nav.permalink $}" path="{$ nav.route $}" target="{$ nav.target $}" class="{$ nav.cssClass $}" on-tap="closeDrawer">{$ nav.title $}</a>
           {% endfor %}
         </iron-selector>
 
